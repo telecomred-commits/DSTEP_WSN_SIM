@@ -1,0 +1,9 @@
+nodes,area_width_m,area_height_m,channel_model,receiver_sensitivity_dbm,critical_topological_tx_power_dbm,critical_operational_tx_power_dbm,nominal_range_at_operational_power_m,f1_at_operational_power,dcr_at_operational_power,lcc_at_operational_power
+20,100,100,log_normal,-95,-10,-10,111.03363181676396,1.0,1.0,1.0
+20,100,100,log_normal,-85,-10,0,111.03363181676396,1.0,1.0,1.0
+20,100,100,rician,-95,-10,-10,111.03363181676396,1.0,1.0,1.0
+20,100,100,rician,-85,-10,0,111.03363181676396,1.0,1.0,1.0
+20,500,500,log_normal,-95,0,0,316.2277660168384,1.0,1.0,1.0
+20,500,500,log_normal,-85,10,10,316.2277660168384,1.0,1.0,1.0
+20,500,500,rician,-95,0,0,316.2277660168384,1.0,1.0,1.0
+20,500,500,rician,-85,10,10,316.2277660168384,1.0,1.0,1.0

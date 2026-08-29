@@ -1,0 +1,10 @@
+component,base_energy_mj
+sense,0.05
+preprocess,0.02
+infer,0.15
+tx_base,0.35
+rx_base,0.18
+idle_per_s,0.005
+consensus,0.035
+estimate,0.08
+prediction,0.025

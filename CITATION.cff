@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the archived Zenodo release and the associated manuscript."
+title: "D-STEP WSN Simulator v0.16: Compute Break-Even Release"
+version: "0.16"
+type: software
+authors:
+  - family-names: "Suárez Suárez"
+    given-names: "Carlos René"
+    orcid: "https://orcid.org/0000-0002-7558-1503"
+    affiliation: "Fundación Universitaria Los Libertadores"
+  - family-names: "Penagos Espinel"
+    given-names: "Oscar Fernando"
+    orcid: "https://orcid.org/0000-0002-3458-1240"
+    affiliation: "Fundación Universitaria Los Libertadores"
+repository-code: "https://doi.org/10.5281/zenodo.21762044"
+license: MIT
+keywords:
+  - wireless sensor networks
+  - distributed intelligence
+  - Edge AI
+  - event propagation
+  - Value of Information
+  - discrete-event simulation
+  - communication efficiency
+  - energy break-even
+preferred-citation:
+  type: article
+  title: "When Does Distributed Intelligence Pay Off? D-STEP for Communication-Efficient Wireless Sensor Networks"
+  authors:
+    - family-names: "Suárez Suárez"
+      given-names: "Carlos René"
+    - family-names: "Penagos Espinel"
+      given-names: "Oscar Fernando"

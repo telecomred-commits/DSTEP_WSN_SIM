@@ -1,0 +1,5 @@
+nodes,area_width_m,area_height_m,channel_model,tx_power_dbm,critical_topological_radius_m,critical_operational_radius_m,f1_at_operational_radius,dcr_at_operational_radius,lcc_at_operational_radius,energy_mj_at_operational_radius,tx_packets_at_operational_radius
+20,100,100,log_normal,0,38,38,0.9744,1.0,1.0,275.24,39.0
+20,100,100,rician,0,38,100,1.0,1.0,1.0,290.45,39.0
+20,500,500,log_normal,0,250,,,,,,
+20,500,500,rician,0,250,,,,,,

@@ -1,0 +1,11 @@
+nodes,area_width_m,area_height_m,channel_model,from_profile,to_profile,f1_delta,dcr_delta,tx_delta_pct,energy_delta_pct,collision_delta_pct
+20,100,100,log_normal,dstep_0_local,dstep_1_consensus,0.0,0.0,0.4166666666666667,8.456480477223424,-0.09610764055742431
+20,100,100,log_normal,dstep_1_consensus,dstep_2_voi,0.0,0.0,0.8298755186721992,2.356323635113586,0.0
+20,100,100,log_normal,dstep_2_voi,dstep_3_prediction,0.0,0.0,-45.67901234567901,15.603150856410107,-50.745550745550744
+20,100,100,log_normal,dstep_3_prediction,dstep_4_network_adaptive,0.0,0.0,-69.6969696969697,-21.918206188017486,-72.509765625
+20,100,100,log_normal,dstep_4_network_adaptive,dstep_full,0.0,0.0,2.5,18.337871433645095,-37.300177619893425
+20,500,500,log_normal,dstep_0_local,dstep_1_consensus,0.0,0.0,6.606606606606607,9.538197067173705,3.8568187547264934
+20,500,500,log_normal,dstep_1_consensus,dstep_2_voi,0.0,0.0,-20.845070422535212,-11.209130900011884,-21.140776699029125
+20,500,500,log_normal,dstep_2_voi,dstep_3_prediction,0.0,0.0,-59.430604982206404,-3.545700436517503,-65.86642043705756
+20,500,500,log_normal,dstep_3_prediction,dstep_4_network_adaptive,0.0,0.0,-71.05263157894737,-19.782325013188217,-75.92425608656447
+20,500,500,log_normal,dstep_4_network_adaptive,dstep_full,0.0,0.0,0.0,3.9457289215007534,-26.96629213483146

@@ -1,0 +1,7 @@
+nodes,area_width_m,area_height_m,channel_model,baseline,full_f1,baseline_f1,f1_gain,full_dcr,baseline_dcr,dcr_gain,full_tx,baseline_tx,tx_change_pct,full_energy_mj,baseline_energy_mj,energy_change_pct,full_collisions,baseline_collisions,collision_change_pct,full_operational_success_rate,baseline_operational_success_rate
+20,100,100,log_normal,periodic,1.0,1.0,0.0,1.0,1.0,0.0,41.0,600.0,-93.16666666666667,349.86,364.4,-3.990120746432482,353.0,10799.0,-96.73117881285305,1,1
+20,100,100,log_normal,event_driven,1.0,1.0,0.0,1.0,1.0,0.0,41.0,356.0,-88.48314606741573,349.86,264.24,32.40236148955495,353.0,6244.0,-94.3465727098014,1,1
+20,100,100,log_normal,distributed_edge,1.0,1.0,0.0,1.0,1.0,0.0,41.0,356.0,-88.48314606741573,349.86,357.24,-2.0658380920389643,353.0,6244.0,-94.3465727098014,1,1
+20,500,500,log_normal,periodic,1.0,1.0,0.0,1.0,1.0,0.0,33.0,600.0,-94.5,300.32,364.4,-17.58507135016465,195.0,7852.0,-97.51655629139073,1,1
+20,500,500,log_normal,event_driven,1.0,1.0,0.0,1.0,1.0,0.0,33.0,363.0,-90.9090909090909,300.32,265.97,12.914990412452518,195.0,4658.0,-95.81365392872478,1,1
+20,500,500,log_normal,distributed_edge,1.0,1.0,0.0,1.0,1.0,0.0,33.0,363.0,-90.9090909090909,300.32,358.97,-16.33841268072542,195.0,4658.0,-95.81365392872478,1,1
