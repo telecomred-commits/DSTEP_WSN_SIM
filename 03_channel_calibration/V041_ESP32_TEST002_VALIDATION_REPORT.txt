@@ -1,0 +1,16 @@
+ESP32 TEST002 v0.41 HELD-OUT VALIDATION
+realizations_per_distance=500
+packets_per_realization=1000
+calibration_split=Runs 1-2
+heldout_split=Run 3
+all_heldout_PDR_inside_95PI=True
+all_heldout_success_RSSI_means_inside_95PI=True
+
+d= 1m  PDR obs=1.000 PI95=[1.000,1.000]  RSSI obs=-60.26 dBm PI95=[-70.74,-48.22]
+d=10m  PDR obs=1.000 PI95=[0.492,1.000]  RSSI obs=-81.75 dBm PI95=[-89.65,-70.98]
+d=20m  PDR obs=0.312 PI95=[0.020,1.000]  RSSI obs=-89.59 dBm PI95=[-92.11,-78.63]
+d=25m  PDR obs=0.064 PI95=[0.004,1.000]  RSSI obs=-89.80 dBm PI95=[-92.88,-80.17]
+d=30m  PDR obs=0.230 PI95=[0.003,0.994]  RSSI obs=-91.29 dBm PI95=[-93.20,-82.75]
+
+Scope: DATA RSSI/PDR only. The simulator MAC/ACK engine remains a compact abstraction,
+and TEST002 application-ACK timing is not represented as an exact ESP-NOW/802.11 MAC model.

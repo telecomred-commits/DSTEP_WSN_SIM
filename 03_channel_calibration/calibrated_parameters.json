@@ -1,0 +1,29 @@
+{
+  "profile_id": "esp_now_test002_real",
+  "fit_split": "Runs 1-2 at each distance",
+  "validation_split": "Run 3 at each distance",
+  "tx_power_command_qdbm": 80,
+  "tx_power_reference_dbm": 20.0,
+  "distance_points_m": [
+    1,
+    10,
+    20,
+    25,
+    30
+  ],
+  "packets_per_run": 1000,
+  "payload_bytes": 48,
+  "wifi_channel": 6,
+  "application_retries": 0,
+  "ack_timeout_ms": 80,
+  "mean_rssi_d0_dbm": -60.03333958265565,
+  "pl_d0_db": 80.03333958265566,
+  "path_loss_exponent": 2.2395444914424116,
+  "link_shadow_sigma_db": 5.410786520421386,
+  "fast_fading_sigma_db": 3.4081073262526393,
+  "decoder_midpoint_dbm": -92.09682869681257,
+  "decoder_logistic_slope_per_db": 1.1242559347380738,
+  "hard_sensitivity_cutoff": false,
+  "fit_method": "Censored likelihood: successful RSSI observations + failed-packet count; per-run latent mean RSSI; common Gaussian packet variation and logistic decoder; log-distance regression of calibration-run latent means; between-run residual SD used as persistent link shadowing.",
+  "scope_note": "Calibrates static two-node DATA RSSI/PDR. Test002 application-ACK timing is retained as validation evidence but is not asserted to equal native simulator MAC timing."
+}

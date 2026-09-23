@@ -1,0 +1,9 @@
+{
+  "simulator_version": "0.41.0",
+  "profile": "esp_now_test002_real",
+  "realizations_per_distance": 500,
+  "packets_per_realization": 1000,
+  "seed": 20260921,
+  "all_pdr_inside_95pi": true,
+  "all_rssi_means_inside_95pi": true
+}
