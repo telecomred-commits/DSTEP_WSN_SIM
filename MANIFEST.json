@@ -1,0 +1,44 @@
+{
+  "package_title": "PA-DSTEP v0.50 reproducibility package",
+  "version": "0.50",
+  "authors": [
+    "Carlos René Suárez Suárez",
+    "Oscar Fernando Penagos Espinel"
+  ],
+  "associated_manuscript": "When Does Distributed Intelligence Pay Off? A Payoff-Aware D-STEP Policy for Communication-Efficient Wireless Sensor Networks",
+  "test_suite": {
+    "passed": 115,
+    "failed": 0
+  },
+  "test002": {
+    "distances_m": [
+      1,
+      10,
+      20,
+      25,
+      30
+    ],
+    "runs_per_distance": 3,
+    "packets_per_run": 1000,
+    "total_transmissions": 15000,
+    "calibration_runs": [
+      1,
+      2
+    ],
+    "heldout_run": 3
+  },
+  "final_campaign": {
+    "event_models": 3,
+    "node_counts": [
+      20,
+      50,
+      100
+    ],
+    "policies": 8,
+    "paired_runs_per_point": 30,
+    "simulations": 2160,
+    "seed_family": "6,000,000-series"
+  },
+  "earlier_zenodo_doi": "10.5281/zenodo.22151638",
+  "license": "Not selected in generated archive; select in Zenodo metadata before publication."
+}

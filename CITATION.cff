@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the associated PA-DSTEP manuscript and this archived software version."
+title: "PA-DSTEP v0.50: Simulator, ESP32 Calibration Dataset, and Reproducibility Package for Payoff-Aware Distributed Intelligence in Wireless Sensor Networks"
+type: software
+version: "0.50"
+date-released: 2026-09-21
+authors:
+  - family-names: "Suárez Suárez"
+    given-names: "Carlos René"
+    affiliation: "Fundación Universitaria Los Libertadores"
+  - family-names: "Penagos Espinel"
+    given-names: "Oscar Fernando"
+    affiliation: "Fundación Universitaria Los Libertadores"
+keywords:
+  - wireless sensor networks
+  - PA-DSTEP
+  - D-STEP
+  - Edge AI
+  - distributed intelligence
+  - ESP32
+  - ESP-NOW
+  - reproducibility
