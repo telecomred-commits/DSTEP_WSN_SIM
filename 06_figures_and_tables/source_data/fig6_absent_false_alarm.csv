@@ -1,0 +1,7 @@
+nodes,policy,network_false_alarm_mean
+20,dstep,0.2333333333333333
+20,dstep_payoff,0.0666666666666666
+50,dstep,0.8
+50,dstep_payoff,0.0
+100,dstep,0.9666666666666668
+100,dstep_payoff,0.0
