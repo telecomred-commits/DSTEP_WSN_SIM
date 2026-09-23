@@ -1,0 +1,8 @@
+Frozen v0.50 package verification
+Commands:
+  cd 01_simulator_source && PYTHONPATH=. pytest -q
+  python 06_figures_and_tables/generate_manuscript_figures.py
+Results:
+  115 tests passed
+  7 manuscript figures regenerated successfully
+Verification date: 2026-09-21
